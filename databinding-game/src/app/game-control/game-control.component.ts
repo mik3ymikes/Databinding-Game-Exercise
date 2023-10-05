@@ -17,4 +17,8 @@ this.interval=setInterval(() => {
 
 }, 1000);
 }
+
+onPauseGame(){
+  clearInterval(this.interval)
+}
 }
